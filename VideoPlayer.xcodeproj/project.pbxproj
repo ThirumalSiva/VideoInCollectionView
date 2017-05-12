@@ -14,6 +14,7 @@
 		4AB6BAD81EC58BFB00DA0730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB6BAD61EC58BFB00DA0730 /* LaunchScreen.storyboard */; };
 		4AB6BAE31EC58BFB00DA0730 /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6BAE21EC58BFB00DA0730 /* VideoPlayerTests.swift */; };
 		4AB6BAEE1EC58BFB00DA0730 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6BAED1EC58BFB00DA0730 /* VideoPlayerUITests.swift */; };
+		4AB6BAFC1EC5913200DA0730 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6BAFB1EC5913200DA0730 /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4AB6BAE91EC58BFB00DA0730 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB6BAED1EC58BFB00DA0730 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		4AB6BAEF1EC58BFB00DA0730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB6BAFB1EC5913200DA0730 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4AB6BACD1EC58BFB00DA0730 /* AppDelegate.swift */,
 				4AB6BACF1EC58BFB00DA0730 /* ViewController.swift */,
+				4AB6BAFB1EC5913200DA0730 /* VideoCollectionViewCell.swift */,
 				4AB6BAD11EC58BFB00DA0730 /* Main.storyboard */,
 				4AB6BAD41EC58BFB00DA0730 /* Assets.xcassets */,
 				4AB6BAD61EC58BFB00DA0730 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB6BAFC1EC5913200DA0730 /* VideoCollectionViewCell.swift in Sources */,
 				4AB6BAD01EC58BFB00DA0730 /* ViewController.swift in Sources */,
 				4AB6BACE1EC58BFB00DA0730 /* AppDelegate.swift in Sources */,
 			);
